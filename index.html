@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark mode</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/016d819f40.js"
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="menu-item">
+      Click icon to open profile
+    </div>
+    <div class="menu-container">
+      <div class="menu-toggle">
+        <img src="images/avatar.png" alt="Avatar icon" class="menu-avatar">
+      </div>
+      <ul class="nav-list" data-visible='false'>
+        <li class="nav-header">
+          <div class="nav-avatar">
+            <img src="images/avatar.png" alt="Avatar icon" class="menu-avatar">
+          </div>
+          <div class="nav-account-container">
+            <div class="nav-account-name">DKBeaton</div>
+            <div class="nav-account-status">Offline</div>
+          </div>
+        </li>
+        <li class="nav-item-online">
+          <span>Online</span>
+          <div class="checkbox-container" data-checked='false'>
+            <div class="checkbox-inner">
+              <input type="checkbox" name="online" id="checkbox-online" value='online'>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item-separator">
+          <div class="separator"></div>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon far fa-user"></i>
+          <span class="nav-item-name">Channel</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-sliders-h"></i>
+          <span class="nav-item-name">Video Producer</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-columns"></i>
+          <span class="nav-item-name">Creator Dashboard</span>
+        </li>
+        <li class="nav-item-separator">
+          <div class="separator"></div>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-user-friends"></i>
+          <span class="nav-item-name">Friends</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon far fa-star"></i>
+          <span class="nav-item-name">Subscriptions</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-gift"></i>
+          <span class="nav-item-name">Drops</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-wallet"></i>
+          <span class="nav-item-name">Wallet</span>
+        </li>
+        <li class="nav-item-separator">
+          <div class="separator"></div>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-cog"></i>
+          <span class="nav-item-name">Settings</span>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-globe"></i>
+          <span class="nav-item-name">Language</span>
+        </li>
+        <li class="nav-item-darkmode">
+          <div class="nav-item-darkmode-container">
+            <i class="nav-item-icon far fa-moon"></i>
+            <span class="nav-item-name">Dark Theme</span>
+          </div>
+          <div class="checkbox-container" data-checked='true'>
+            <div class="checkbox-inner">
+              <input type="checkbox" name="darkmode" id="checkbox-darkmode" value='true'>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item-separator">
+          <div class="separator"></div>
+        </li>
+        <li class="nav-item">
+          <i class="nav-item-icon fas fa-sign-out-alt"></i>
+          <span class="nav-item-name">Log Out</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of nav -->
+
+  <!-- JS -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
